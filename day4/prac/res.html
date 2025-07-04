@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            font-family:sans-serif ;
+              
+        }
+        body{
+            background-image: url("https://www.parksconservancy.org/sites/default/files/styles/basic/public/field/image/FOFU_20200321_RCW_0037.jpg?itok=8Qk9Wuml");
+             background-size: cover;
+      background-position: center;
+      min-height: 100vh;
+        }
+        nav{
+            padding: 14px 20px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+          
+            color: white;
+        }
+        nav h1{
+            font-size: 33px;
+            font-weight:bold;
+        }
+        nav ul{
+            font-size: medium;
+            display: flex;
+            gap: 40px;
+            font-weight: 400;
+            list-style: none;
+        }
+        nav ul li{
+            cursor: pointer;
+             padding: 5px 10px;   
+  transition: background 0.3s ease;  
+        }
+         nav ul li:hover{
+            background:rgba(222, 184, 135, 0.762);
+            border-radius: 4px;
+        }
+
+        @media (max-width:678px) {
+            nav{
+                flex-wrap: wrap;
+            }
+            nav ul{
+                margin-top: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+         <h1>Navbar</h1>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Work</li>
+                <li>Blog</li>
+
+            </ul>
+     </nav>
+ 
+</body>
+</html>
